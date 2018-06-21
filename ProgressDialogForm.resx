@@ -148,16 +148,16 @@
     <value>Bottom, Right</value>
   </data>
   <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 102</value>
+    <value>323, 102</value>
   </data>
   <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>66, 23</value>
   </data>
   <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="btn_Cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Отменить</value>
   </data>
   <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
     <value>btn_Cancel</value>

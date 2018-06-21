@@ -160,7 +160,7 @@ namespace KlerksSoft.EasyProgressDialog
                 {
                     double rateSoFar = CurrentCount / timeElapsed.TotalSeconds;
                     TimeSpan expectedTime = TimeSpan.FromSeconds((TotalEstimatedCount - CurrentCount) / rateSoFar);
-                    _dialogForm.lbl_TimeEstimate.Text = Utils.GetApproxTimeSpanDescription(expectedTime) + " remaining.";
+                    _dialogForm.lbl_TimeEstimate.Text = Utils.GetApproxTimeSpanDescription(expectedTime) + " осталось.";
                 }
                 else
                 {

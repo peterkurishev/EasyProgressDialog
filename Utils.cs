@@ -18,14 +18,14 @@ namespace KlerksSoft.EasyProgressDialog
     {
         public static string GetApproxTimeSpanDescription(TimeSpan someTime)
         {
-            string descOut = "Approx. ";
+            string descOut = "Примерно ";
 
             if (someTime.TotalSeconds < 60)
-                descOut += Math.Round(someTime.TotalSeconds).ToString() + " seconds";
+                descOut += Math.Round(someTime.TotalSeconds).ToString() + " секунд";
             else if (someTime.TotalMinutes < 60)
-                descOut += Math.Round(someTime.TotalMinutes, 1).ToString() + " minutes";
+                descOut += Math.Round(someTime.TotalMinutes, 1).ToString() + " минут";
             else
-                descOut += Math.Round(someTime.TotalHours, 1).ToString() + " hours";
+                descOut += Math.Round(someTime.TotalHours, 1).ToString() + " часов";
 
             return descOut;
         }
